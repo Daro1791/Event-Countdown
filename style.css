@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(154, 197, 154);
+}
+
+#form {
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  width: 60%;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+#form input {
+  margin: 5px 0;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#eventsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(187, 57, 57);
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.event {
+  margin: 5px;
+  border: 1px dashed black;
+  padding: 3px;
+  background-color: rgb(157, 171, 175);
+}
+
+.bDelete {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#bAdd {
+  cursor: pointer;
+}
